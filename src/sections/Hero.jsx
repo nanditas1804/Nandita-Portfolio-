@@ -3,8 +3,6 @@ import {
   ArrowRight,
   ChevronDown,
   Download,
-  Github,
-  Linkedin,
 } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
@@ -27,18 +25,7 @@ const skills = [
   "Agile",
   "Scrum",
 ];
-const socials = [
-  {
-    icon: Github,
-    href: "https://github.com/nanditas1804",
-    label: "GitHub",
-  },
-  {
-    icon: Linkedin,
-    href: "https://www.linkedin.com/in/nandita-singh-react-developer",
-    label: "LinkedIn",
-  },
-];
+const socials = [];
 
 export const Hero = () => {
   return (
@@ -121,17 +108,17 @@ export const Hero = () => {
                 Find me on:
               </span>
               {socials.map((social, idx) => (
-                
-                  key={idx}
-                  href={social.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={social.label}
-                  className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300"
-                >
-                  <social.icon className="w-5 h-5" />
-                </a>
-              ))}
+  <a
+    key={idx}
+    href={social.href}
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label={social.label}
+    className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300"
+  >
+    <social.icon className="w-5 h-5" />
+  </a>
+))}
             </div>
           </div>
 
@@ -188,7 +175,7 @@ export const Hero = () => {
 
         {/* Scroll Indicator */}
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-fade-in animation-delay-800">
-          
+          <a
             href="#about"
             className="flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors group"
           >
