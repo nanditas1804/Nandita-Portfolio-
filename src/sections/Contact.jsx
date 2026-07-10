@@ -242,9 +242,9 @@ import {
                   <span className="font-medium">Currently Available</span>
                 </div>
                 <p className="text-muted-foreground text-sm">
-                I'm currently open to full-time software engineering opportunities
-in Germany. Whether you're a recruiter, a hiring manager, or a
-fellow engineer, I'd love to connect.
+                I'm currently open to full-time, part-time and remote software engineering opportunities
+                 in Germany. Whether you're a recruiter, a hiring manager, or a
+                 fellow engineer, I'd love to connect.
                 </p>
               </div>
             </div>
